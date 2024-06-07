@@ -1,12 +1,10 @@
-Sure! Here's a `README.md` file for your project:
-
-### `README.md`
+`README.md`
 ```markdown
-# Banking Application
+ Banking Application
 
 This project is a Python-based banking application that supports different types of bank accounts with specific rules and constraints. The application demonstrates the use of object-oriented programming principles such as inheritance, polymorphism, and encapsulation.
 
-## Project Structure
+ Project Structure
 
 The project is organized as follows:
 
@@ -26,30 +24,30 @@ project_directory/
     └── test_student_account.py
 ```
 
-## Account Types
+ Account Types
 
-1. **Savings Account**:
+1. Savings Account:
     - Gains interest of 0.5% per deposit.
     - Withdrawal limit of 700,000.
     
-2. **Current Account**:
+2. Current Account:
     - No restrictions on deposits or withdrawals.
     
-3. **Children's Account**:
+3. Children's Account:
     - Gains interest of 0.7% per deposit.
     - Withdrawals are not allowed.
     
-4. **Student Account**:
+4. Student Account:
     - Withdrawal limit of 2,000.
     - Deposit limit of 50,000 per deposit.
 
-## Running the Application
+ Running the Application
 
-### Prerequisites
+ Prerequisites
 
 - Python 3.x must be installed on your system.
 
-### Running the Main Script
+ Running the Main Script
 
 1. Open a terminal or command prompt.
 2. Navigate to the project directory:
@@ -64,7 +62,7 @@ project_directory/
     python main.py
     ```
 
-### Running the Tests
+ Running the Tests
 
 1. Open a terminal or command prompt.
 2. Navigate to the project directory:
@@ -79,33 +77,33 @@ project_directory/
     python -m unittest discover -s tests
     ```
 
-## Code Overview
+ Code Overview
 
-### `account.py`
+ `account.py`
 
 Contains the base `Account` class with common functionalities such as deposit, withdraw, and balance checking.
 
-### `savings_account.py`
+ `savings_account.py`
 
 Contains the `SavingsAccount` class which inherits from `Account` and adds interest calculation on deposits and a withdrawal limit.
 
-### `current_account.py`
+ `current_account.py`
 
 Contains the `CurrentAccount` class which inherits from `Account` with no additional restrictions.
 
-### `childrens_account.py`
+ `childrens_account.py`
 
 Contains the `ChildrensAccount` class which inherits from `Account`, adds interest calculation on deposits, and disallows withdrawals.
 
-### `student_account.py`
+ `student_account.py`
 
 Contains the `StudentAccount` class which inherits from `Account` and imposes deposit and withdrawal limits.
 
-### `main.py`
+ `main.py`
 
 Demonstrates example usage of the different account types.
 
-### `tests`
+ `tests`
 
 Contains unit tests for each account type to ensure the application behaves as expected.
 
@@ -115,13 +113,9 @@ Contains unit tests for each account type to ensure the application behaves as e
 - `test_childrens_account.py`: Tests for the `ChildrensAccount` class.
 - `test_student_account.py`: Tests for the `StudentAccount` class.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
+ Acknowledgements
 
 This project was developed as an example to demonstrate object-oriented programming principles in Python.
 ```
 
-This `README.md` file provides an overview of the project, instructions for running the application and tests, a brief description of each file, and other relevant information. Feel free to customize it further based on your specific needs or any additional details you want to include.
+This `README.md` file provides an overview of the project, instructions for running the application and tests, a brief description of each file, and other relevant information.
